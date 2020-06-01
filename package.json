@@ -14,5 +14,13 @@
     "functions"
   ],
   "author": "mls44",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/myleftshoe/elucidate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/myleftshoe/elucidate/issues"
+  },
+  "homepage": "https://github.com/myleftshoe/elucidate#readme"
 }

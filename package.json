@@ -1,0 +1,18 @@
+{
+  "name": "elucidate",
+  "version": "0.0.0",
+  "description": "lucid js date functions - make it clear what you are doing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "js",
+    "javascript",
+    "dates",
+    "date",
+    "functions"
+  ],
+  "author": "mls44",
+  "license": "ISC"
+}

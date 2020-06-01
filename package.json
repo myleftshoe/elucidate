@@ -1,7 +1,7 @@
 {
-  "name": "elucidate",
+  "name": "lapidate",
   "version": "0.0.0",
-  "description": "lucid js date functions - make it clear what you are doing",
+  "description": "stone js dates tp death",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,10 +17,13 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/myleftshoe/elucidate.git"
+    "url": "git+https://github.com/myleftshoe/lapidate.git"
   },
   "bugs": {
-    "url": "https://github.com/myleftshoe/elucidate/issues"
+    "url": "https://github.com/myleftshoe/lapidate/issues"
   },
-  "homepage": "https://github.com/myleftshoe/elucidate#readme"
+  "homepage": "https://github.com/myleftshoe/lapidate#readme",
+  "dependencies": {
+    "date-fns": "^2.14.0"
+  }
 }

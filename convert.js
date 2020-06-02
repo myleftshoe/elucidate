@@ -1,29 +1,31 @@
 const { format } = require('date-fns/fp')
 
 const reducer = (obj, fn) => obj.map(fn)
-const reduce = (obj, fns) => fns.reduce(reducer, obj)
 
 const convert = (obj, ...fns) => {
     if (Array.isArray(obj))
-        return reduce(obj, fns)
-    return reduce([obj], fns)[0]
+        return fns.reduce(reducer, obj)
+    return fns.reduce(reducer, [obj])[0]
 }
 
-const toLowerCase = str => str.toLowerCase()
-const toUpperCase = str => str.toUpperCase()
+const toLowercase = str => str.toLowerCase()
+const toUppercase = str => str.toUpperCase()
 
-const toDays = format('ccc') 
-const toLongDays = format('cccc')
+const toDay = format('ccc') 
+const toDays = toDay
+const toLongDay = format('cccc')
+const toLongDays = toLongDay
 
 const toMilliseconds = date => date.getTime()
 
 module.exports = {
     convert,
     to: format,
+    toDay,
     toDays,
+    toLongDay,
     toLongDays,
-    toLowerCase,
-    toUpperCase,
+    toLowercase,
+    toUppercase,
     toMilliseconds,
 }
-
